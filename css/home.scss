@@ -1,0 +1,143 @@
+//carousel
+.left {
+  .prev1 {
+    background: url("../images/img_home/prev.png") no-repeat top 5px left 5px !important;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+  }
+}
+
+.right {
+  .next1 {
+    background: url("../images/img_home/next.png") no-repeat top 5px left 5px !important;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+  }
+}
+
+#carousel-example-generic {
+  .carousel-indicators {
+    bottom: 10px !important;
+    li {
+      width: 12px;
+      height: 12px;
+      margin: 0;
+      background-color: #fff;
+      border: unset;
+      margin-right: 5px;
+    }
+  }
+
+  .carousel-indicators .active {
+    background-color: #F3AC36;
+  }
+
+  .carousel-inner {
+    .item {
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+}
+.box_mg{
+  margin: 50px 0 0;
+}
+.box-content{
+  .title_module{
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-family: RobotoBold;
+  }
+  .content_{
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+.left_service{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.box-service{
+  background-color: #272360;
+  padding: 65px 0;
+  .left_service{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .tools_image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    .item_tool{
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      .name_tool{
+        margin: 25px 0 27px 0;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: normal;
+        font-family: RobotoBold;
+
+      }
+      .smr_tool{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .right_service{
+    padding-left: 30px;
+    padding-right: 30px;
+    h2{
+      font-size: 36px;
+      line-height: 48px;
+      font-weight: normal;
+      font-family: RobotoBold;
+      margin-bottom: 40px;
+      margin-top:50px;
+      color: #fff;
+    }
+    .content_service{
+      color: #fff;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  .bo_row{
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+}
+.box-products{
+  margin-bottom: 20px;
+  .title_module{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: RobotoBold;
+    margin-bottom: 30px;
+  }
+  .smr_prd{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .list_prd{
+    .item_prd{
+      margin-bottom: 30px;
+    }
+  }
+}

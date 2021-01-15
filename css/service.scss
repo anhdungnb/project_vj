@@ -1,0 +1,135 @@
+.top_banner {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .top_ct {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    .title_module {
+      color: #fff;
+      font-size: 42px;
+      line-height: 55px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-family: RobotoBold;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .bread_crumd {
+      a {
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 15px;
+      }
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.box-service {
+  padding: 50px 0;
+  .title_box {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: RobotoBold;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .smr {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .list_service {
+    margin-top: 50px;
+    .item_service {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid #D7D7D7;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+      .name_tool {
+        margin: 25px 0 27px 0;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: normal;
+        font-family: RobotoBold;
+
+      }
+      .smr_tool {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.box-products {
+  padding-bottom: 20px;
+  .title_box {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: RobotoBold;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .nav1 {
+    width: max-content;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: unset;
+    margin-bottom: 50px;
+    .active {
+      a {
+        color: #fff !important;
+        //border-radius: 30px;
+        background-color: #F3AC36 !important;
+
+      }
+    }
+  }
+  .nav_tabs > li{
+    display: block;
+  }
+  .nav_tabs > li > a {
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #272360;
+    @media(max-width: 768px){
+      font-size: 10px;
+      padding: 10px 5px;
+    }
+    @media(max-width: 400px){
+      height: 54px;
+    }
+  }
+
+  .nav_tabs > li > a:hover {
+    background: #F3AC36;
+    color: #fff;
+
+  }
+  .tab-content{
+    .item{
+      margin-bottom: 30px;
+    }
+  }
+
+}
+

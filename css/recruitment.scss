@@ -1,0 +1,103 @@
+.top_banner {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .top_ct {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    .title_module {
+      color: #fff;
+      font-size: 42px;
+      line-height: 55px;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-family: RobotoBold;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .bread_crumd {
+      a {
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 15px;
+      }
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.box-recruitment {
+  padding: 45px 0 5px 0;
+  width: 83%;
+  margin: auto;
+  .title_box {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: RobotoBold;
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: #F3AC36;
+  }
+  .list_recruitment {
+    .item_recruitment {
+      display: grid;
+      grid-template-columns: 50% 15% 15% 20%;
+      align-items: end;
+      font-size: 16px;
+      line-height: 28px;
+      padding-bottom: 15px;
+      margin-bottom: 40px;
+      border-bottom: 1px dotted #CCCCCC;
+      p{
+        margin-bottom: 0;
+      }
+      .detail{
+
+        h3{
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: normal;
+          font-family: RobotoBold;
+          margin-top: 0;
+          margin-bottom: 15px;
+        }
+        p{
+          padding-left: 20px;
+          background: url("../images/img-recruitment/001-maps-and-flags.svg") top 5px left 1px no-repeat;
+        }
+      }
+      .time{
+        padding-left: 30px;
+        background: url("../images/img-recruitment/001-calendar.svg") top 1px left 1px no-repeat;
+      }
+      .price{
+        padding-left: 25px;
+        background: url("../images/img-recruitment/003-dollar.svg") top 5px left 1px no-repeat;
+      }
+      .btn{
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: #272360;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 15px;
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+

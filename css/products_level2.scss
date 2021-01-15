@@ -1,0 +1,214 @@
+@font-face {
+  font-family: SFUFuturaBold;
+  font-weight: normal;
+  src: url("../font/SFUFuturaBold.TTF");
+}
+@font-face {
+  font-family: SFUFuturaLight;
+  font-weight: normal;
+  src: url("../font/SFUFuturaLight.TTF");
+}
+
+@font-face {
+  font-family: SFUFuturaRegular;
+  font-weight: normal;
+  src: url("../font/SFUFuturaRegular.TTF");
+}
+
+@font-face {
+  font-family: SFUFuturaBook;
+  font-weight: normal;
+  src: url("../font/SFUFuturaBook.TTF");
+}
+@font-face {
+  font-family: SFUFuturaHeavy;
+  font-weight: normal;
+  src: url("../font/SFUFuturaHeavy.TTF");
+}
+@font-face {
+  font-family: SFUFuturaExtraBold;
+  font-weight: normal;
+  src: url("../font/SFUFuturaExtraBold.TTF");
+}
+
+body {
+  $mau: #636767;
+  .container {
+    width: 1170px;
+    padding: 0;
+  }
+  section{
+    .row{
+      margin: 0 -5px;
+      .col-md-4{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    .products{
+      padding-bottom: 10px;
+      text-align: center;
+      position: relative;
+      .img-responsive{
+        display: unset;
+      }
+      .infor{
+        //background: url("../images/img_home/bgt.png") repeat center;
+        background: #ffffff7d;
+        position: absolute;
+        top: 74%;
+        left: 3px!important;
+        padding: 15px 95px;
+        .title{
+          color: #221f20;
+          font-family: SFUFuturaHeavy;
+          font-size: 20px;
+          margin: 0;
+        }
+        .price{
+          color: #221f20;
+          font-family: SFUFuturaBold;
+          font-size: 24px;
+          margin: 0;
+
+        }
+      }
+    }
+    //breadcrumb
+    .breadcrumb-item+.breadcrumb-item::before {
+      content: ">";
+      color: #c0c2c5;
+      font-size: 20px;
+    }
+    .breadcrumb .home::before {
+      content: "";
+    }
+    .breadcrumb{
+      padding-left: 0;
+      background: none;
+      margin-bottom: 0;
+      display: flex;
+        li{
+          &:before{
+            content: ">";
+            color: #c0c2c5;
+            font-size: 20px;
+          }
+          a{
+            //display: block;
+            color: #414042;
+            font-size: 18px;
+            font-family: SFUFuturaHeavy;
+            text-decoration: none;
+            padding: 5px 10px;
+            span{
+              color: #bbbdc0;
+              font-size: 18px;
+              font-family: SFUFuturaHeavy;
+              margin-left: 50%;
+            }
+            img{
+              padding-bottom: 7px;
+            }
+          }
+        }
+      }
+    //end-breadcrumb
+    //list
+    .list{
+      margin-bottom: 20px;
+      .btn-secondary{
+        color: #221f20;
+        font-size: 18px;
+        font-family: SFUFuturaHeavy;
+        background: #b6b7b8;
+        border-radius: 10px;
+        border: none;
+        padding: 6px 15px;
+        margin-right: 5px;
+
+      }
+    }
+    .sort{
+      margin-bottom: 10px;
+      .dropdown{
+        border: 1px solid #646768;
+        display: inline-block;
+        .btn{
+          color: #221f20;
+          font-family: SFUFuturaBold;
+          font-size: 18px;
+          padding: 10px 20px;
+          border: unset;
+          &:hover, :active{
+            background: none;
+          }
+        }
+        .dropdown-menu{
+          border: 1px solid #646768;
+          width: 235px;
+          border-radius: unset;
+          left: -1px!important;
+          padding: 0;
+          margin: 0;
+          .dropdown-item{
+            color: #221f20;
+            font-size: 18px;
+            font-family: SFUFuturaHeavy;
+            padding: 15px 20px;
+            border-bottom: 1px solid #b3b5b5;
+            &:hover{
+              background: #636667;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .show{
+        display: inline-block!important;
+      }
+      .right{
+        float: right;
+        .dropdown-menu{
+          left: unset!important;
+          right: -1.5px;
+        }
+      }
+      .btn-default:active, .open>.dropdown-toggle.btn-default {
+        background: none;
+      }
+    }
+    .navigation1{
+      margin-bottom: 30px;
+    }
+    .navigation1 .pagination li{
+      display: inline-block;
+      margin-right: 5px;
+      a{
+        color: #636667;
+        font-size: 18px;
+        font-family: SFUFuturaBold;
+        border: 1px solid #636767;
+        width: 40px;
+        border-radius: unset;
+        i{
+          color: #636667;
+          font-weight: bold;
+          font-size: 23px;
+          //font-family: SFUFuturaBold;
+
+        }
+      }
+      &:hover{
+        a{
+          color: #ffffff;
+          background: #636667;
+          i{
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
